@@ -103,7 +103,7 @@ class QuizView extends Component {
     return (
       <div className='quiz-play-holder'>
         <div className='choose-header'>Choose Category</div>
-        <div className='category-holder'>
+        <div className='category-holder show-cursor'>
           <div className='play-category' onClick={this.selectCategory}>
             ALL
           </div>

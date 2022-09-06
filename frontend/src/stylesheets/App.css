@@ -37,3 +37,7 @@ form {
   width: 80%;
   margin: auto;
 }
+
+.show-cursor{
+  cursor: pointer;
+}

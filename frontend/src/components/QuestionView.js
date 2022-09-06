@@ -144,6 +144,7 @@ class QuestionView extends Component {
                 onClick={() => {
                   this.getByCategory(id);
                 }}
+                className="show-cursor"
               >
                 {this.state.categories[id]}
                 <img
@@ -168,7 +169,7 @@ class QuestionView extends Component {
               questionAction={this.questionAction(q.id)}
             />
           ))}
-          <div className='pagination-menu'>{this.createPagination()}</div>
+          <div className='pagination-menu show-cursor'>{this.createPagination()}</div>
         </div>
       </div>
     );
